@@ -70,7 +70,8 @@ theme: next
   
 deploy: 
   type: git
-  repo: https://github.com/peaceFun/peaceFun.github.io.git
+##  repo: https://github.com/peaceFun/peaceFun.github.io.git
+  repo: ssh://git@github.com/peaceFun/peaceFun.github.io
   branch: master
   message: update-blog
 
