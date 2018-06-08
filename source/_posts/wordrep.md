@@ -3,6 +3,7 @@ title: Office VBA例子
 date: 2017-04-25 13:13:06
 tags: [word,vba]
 categories: Develop
+cover_picture: images/10.jpg
 ---
 
 ## 替换多个Word文件中的字符串

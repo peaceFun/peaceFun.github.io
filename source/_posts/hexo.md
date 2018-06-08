@@ -3,6 +3,7 @@ title: 搭建Hexo，在不同机器上编辑博客
 date: 2017-06-03 18:55:11
 tags: [hexo,博客]
 categories: 搭建hexo
+cover_picture: images/06.jpg
 ---
 
 

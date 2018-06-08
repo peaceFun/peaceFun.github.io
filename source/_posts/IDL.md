@@ -3,6 +3,7 @@ title: IDL
 date: 2017-06-04 20:24:36
 tags: [IDL,Remote Sensing]
 categories: Develop
+cover_picture: images/07.jpg
 ---
 
 ## 动机

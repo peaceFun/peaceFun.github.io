@@ -3,6 +3,7 @@ title: 人岗速配
 date: 2017-06-15 20:24:36
 tags: [人岗]
 categories: Management
+cover_picture: images/08.jpg
 ---
 
 

@@ -3,7 +3,7 @@ title: ToDos
 date: 2017-06-04 20:01:02
 tags: [锻炼,享受,技能]
 categories: 目标
-
+cover_picture: images/02.jpg
 ---
 
 

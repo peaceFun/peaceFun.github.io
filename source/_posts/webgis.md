@@ -3,6 +3,7 @@ title: WebGIS
 date: 2017-06-04 20:28:03
 tags: WebGIS
 categories: Develop
+cover_picture: images/09.jpg
 ---
 
 
