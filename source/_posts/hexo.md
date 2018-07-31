@@ -20,7 +20,7 @@ cover_picture: https://img.zcool.cn/community/01b503554bf99f000001bf72403d70.jpg
 
 ### 再次同步
 > 1. hexo clean 
-> 1. git push -f --set-upstream origin master
+> 1. git push -f --set-upstream origin hexo-src:hexo-src
 
 
 <!--more-->
