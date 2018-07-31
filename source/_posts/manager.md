@@ -3,11 +3,11 @@ title: 人岗速配
 date: 2017-06-15 20:24:36
 tags: [人岗]
 categories: Management
-cover_picture: images/08.jpg
+cover_picture: https://img.zcool.cn/community/01cf3b554bf99f000001bf72610d7e.jpg@1280w_1l_2o_100sh.webp
 ---
 
 
-## 人岗速配：
+### 人岗速配：
 1. 选人
 1. 选重要岗位
 1. 快速安排岗位

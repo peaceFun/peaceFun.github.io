@@ -3,11 +3,11 @@ title: WebGIS
 date: 2017-06-04 20:28:03
 tags: WebGIS
 categories: Develop
-cover_picture: images/09.jpg
+cover_picture: https://img.zcool.cn/community/012f705540c80f0000017c940e5c70.jpg@1280w_1l_2o_100sh.jpg
 ---
 
 
-## 缘起
+### 缘起
 在SuperMap学习工作中收获颇多：
 1. 产品体系和企业愿景；
 2. 团队敏捷开发和行业耕耘；
@@ -15,8 +15,8 @@ cover_picture: images/09.jpg
 
 记录WebGIS研发的点滴，整理行囊，轻装前行。
 <!-- more -->
-## SuperPy Tif影像拼接
-### 影像像素位深检查
+### SuperPy Tif影像拼接
+#### 影像像素位深检查
 1. 采用开源库GDAL的gdalinfo.exe读取GeoTiff文件的信息，如类型、投影，范围等。
 1. 采用DOS脚本遍历所有GeoTiff文件，输出各个GeoTiff文件的信息到日志。
 1. 统计GeoTiff文件个数，Type=Byte的文件的个数。数目一致表明全部GeoTiff像素类型一致。
@@ -26,7 +26,7 @@ for /f %i in ('dir /b /s d:\tifdata\*.tif ') do @(
     )
 ```
 
-### 影像拼接处理
+#### 影像拼接处理
 采用SuperMapPy脚本处理影像拼接。先安装Python2.7.3和Deskpro环境。
 流程如图
 ![](http://images2015.cnblogs.com/blog/583396/201510/583396-20151020151646630-204827930.gif)
@@ -218,8 +218,8 @@ if __name__=='__main__':
 
 
 
-## 手工合成WMTS调用路径
-### 动机
+### 手工合成WMTS调用路径
+#### 动机
 一般OGC WMTS地图只提供了xml描述，地图应用常常要合成WMTS完整的调用URL。
 我们需要获知以下参数：
 
@@ -232,7 +232,7 @@ if __name__=='__main__':
 1. TILEMATRIXSET：“Custom_SR“，分块矩阵名称，从xml中提取。
 1. OFFLEVEL：“0“，分辨率分级偏移，扩展字段，用于项目中叠加天地图地图。
 
-### 步骤
+#### 步骤
 1. 获取baseurl
 首先先拿到WMTS描述xml路径，如http://localhost:8090/iserver/services/map-china400/wmts100
 2. 获取xml文件内容
@@ -254,13 +254,13 @@ url = 'http://10.36.5.46:8080/iserver/services/map-JXDJS/wmts100' + '?' +
 url=http://10.36.5.46:8080/iserver/services/map-JXDJS/wmts100?&SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=SR&FORMAT=image/png&TILEMATRIXSET=Custom_SR&OFFLEVEL=0
 
 
-## Leaflet 示例
-### 动机
+### Leaflet 示例
+#### 动机
 1. 加载本地png瓦片
 1. 加载GeoJson
 1. 点要素自动聚类
 
-### 源码
+#### 源码
 ```html
 <!DOCTYPE html>
 <html>
@@ -328,9 +328,9 @@ url=http://10.36.5.46:8080/iserver/services/map-JXDJS/wmts100?&SERVICE=WMTS&VERS
 </html>
 ```
 
-## 江西水利一张图调用示例
+### 江西水利一张图调用示例
 
-### 源码 
+#### 源码 
 ```html
 <head>   
      <meta http-equiv="content-type" content="text/html; charset=utf-8">

@@ -3,15 +3,15 @@ title: Office VBA例子
 date: 2017-04-25 13:13:06
 tags: [word,vba]
 categories: Develop
-cover_picture: images/10.jpg
+cover_picture: https://img.zcool.cn/community/012ef65540c80f0000017c94be54c2.jpg@1280w_1l_2o_100sh.webp
 ---
 
-## 替换多个Word文件中的字符串
-### 动机
+### 替换多个Word文件中的字符串
+#### 动机
 需替换多个doc文件中的地名等字符串，人工处理慢且容易出错。
 
 <!--more-->
-### 源码
+#### 源码
 ``` vb
 
 ' -------------------------------------------------------------------------
@@ -76,10 +76,10 @@ Sub MultiDocReplace()
 End Sub
 ```
 
-## 根据清单生成GTD事项
-### 动机
+### 根据清单生成GTD事项
+#### 动机
 从工作表清单生成重要、紧急、次要、琐事4类事项
-### 源码
+#### 源码
 ```vb
 ' --------------------------------------------------------------------------------
 ' 用来从清单生成紧急、重要、次要、琐事4类清单，督促办理
@@ -230,10 +230,10 @@ Sub GTD()
 End Sub
 ```
 
-## 合并重复单元格
-### 动机
+### 合并重复单元格
+#### 动机
 要将内容相同的相邻单元格合并为1个
-### 源码
+#### 源码
 ```vb
 Sub MergeCellsWithSameValue()
     Application.ScreenUpdating = False

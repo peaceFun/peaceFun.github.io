@@ -3,13 +3,13 @@ title: IDL
 date: 2017-06-04 20:24:36
 tags: [IDL,Remote Sensing]
 categories: Develop
-cover_picture: images/07.jpg
+cover_picture: https://img.zcool.cn/community/010e5e554bf99f000001bf72b55c11.jpg@1280w_1l_2o_100sh.jpg
 ---
 
-## 动机
+### 动机
 求学期间，用过IDL一阵子。将零散的编录到博客，铭记时光。
 
-## IDL概述
+### IDL概述
 
 1. 首先看看IDL能干什么，《Solving Real Problems with Computer Graphics》ppt是英文的，很精彩。
 1. 其次是IDL基础语法，辜智慧的IDL入门ppt，全面简练。有其他编程语言基础试写几段code就很容易上手。
@@ -19,7 +19,7 @@ cover_picture: images/07.jpg
 目前应用IDL语言，已经开发出了ENVI、IMAGIS、RiverTools、医学等成熟产品。具体的应用实例也非常多，如在2000年澳大利亚悉尼奥运会综合预报系统、美国国家环境卫星数据和信息服务中心的厄尔尼诺现象分析等工作中得到了成功的应用。作为面向矩阵、语法简单的第四代可视化语言，IDL致力于科学数据的可视化和分析，是跨平台应用开发的最佳选择。它集可视化、交互分析、大型商业开发为一体，为用户提供完善、灵活、有效地开发环境。 
 问问自己，准备要用IDL来干什么。要有的放矢才行。
 
-## 找回桌面Envi快捷方式
+### 找回桌面Envi快捷方式
 1. envi快捷方式
 > E:\ITT\IDL64\bin\bin.x86\idlrt.exe -nodemowarn -novm "E:\ITT\IDL64\lib\hook\envi.sav"
 
@@ -29,7 +29,7 @@ cover_picture: images/07.jpg
 1. idl+envi快捷方式
 > E:\ITT\IDL64\bin\bin.x86\idlde.exe -minimized -noconfirmexit -nosplash @“E:\ITT\IDL64\products\envi44\bin\envi.run”
  
-## myEclipse配置IDL开发环境
+### myEclipse配置IDL开发环境
 新安装了Envi5.0 IDL8.2，总结一下，JSP调用IDL的配置，jar包配置，环境变量配置，dll配置，tomcat路径配置，tomcat运行选项配置，jdk lib和bin配置。结果是要能自如地在jsp里面建立pro对应的java对象。
  
 已经配置成功。汇总记录一下：
@@ -41,7 +41,7 @@ cover_picture: images/07.jpg
 1. 重新安装一次Envi5（如实记录，不知是否起作用）；
 
 
-## TM3、4波段GeoTiff数据计算NDVI
+### TM3、4波段GeoTiff数据计算NDVI
 NDVI是遥感图像处理最常见的![NDVI](http://i.weather.com.cn/images/henan/nyqx/ygjc/nyyg/2011/05/22/6731D1A3076F2F3187AF7FE47EE34B76.jpg)
 
 ``` Fortran
@@ -61,7 +61,7 @@ PRO TIFF_NDVI,F1,F2,FOUT
 END 
 ```
 
-## IDL PCA主成分分析
+### IDL PCA主成分分析
 在多元统计分析中，主成分分析（Principal components analysis，PCA）是一种分析、简化数据集的技术。主成分分析经常用于减少数据集的维数，同时保持数据集中的对方差贡献最大的特征。【wiki】
 
 在遥感影像解译与分类中，PCA是经常用到的降维滤噪处理技术。现在实现这个处理流程，便于熟悉和掌握IDL矩阵乘除运算操作。
@@ -82,7 +82,7 @@ Pro Pca,Data,Eigenvalues = Egvalues,Eigenvectors = Egvec,Percent = Percent,_Extr
     ;           Egvec3
     ;           ...
     
-    Data = Temporary(Reform(Transpose(Egvec) ## Transpose(Data),Ns,Nl,Nb))
+    Data = Temporary(Reform(Transpose(Egvec) ### Transpose(Data),Ns,Nl,Nb))
   Endif
 End
 ;---------------------------------------
@@ -98,7 +98,7 @@ Pro Get_Sz,Data,Ns=Ns,Nl=Nl,Nb=Nb,Type = Type
 End
 ```
 
-## IDL EOF分析
+### IDL EOF分析
 关于EOF详细介绍请wiki http://en.wikipedia.org/wiki/Empirical_orthogonal_functions或者Google之。
 
 与PCA一样，EOF也是遥感多维变量的一种线性变换，同样可以达到降维的目的。EOF多用于气象要素场等包含了时间、空间信息的数据，例如可以根据多年气象站的降雨监测资料，提取出空间“主成分”，即若干个主要的大面积降雨或者干旱的地区；时间“主成分”，即降雨年际周期或者年内周期。
@@ -136,7 +136,7 @@ Pro Eofs,Data,Eof,Pcs
 End
 ```
 
-## IDL 求坡度坡向
+### IDL 求坡度坡向
 
 ``` fortran
 Pro Aspect_Slope,Dem,Aspect = Aspect,Slope=Slope,Pixelsize = Pixelsize
@@ -169,7 +169,7 @@ Pro Get_Sz,Data,Ns=Ns,Nl=Nl,Nb=Nb,Type = Type
 End
 ```
 
-## IDL 求TVDI
+### IDL 求TVDI
 介绍参见[ENVI下温度植被干旱指数(TVDI)功能模块](http://blog.sina.com.cn/s/blog_764b1e9d0100wdrr.html)
 
 1. 主要是如何求得散点图上下两条边，我的策略是竖着切开散点，分作n个柱子。每个柱子如果总点数大于200，就统计最大最小的50个点作为干湿边的组成部分。
@@ -220,7 +220,7 @@ Pro Tvdi,Ndvi,Lst,Nbins,Res
 End
 ```
 
-## IDL建立影像金字塔
+### IDL建立影像金字塔
 
 形成按目录放好的，类似于Google Map Tile的金字塔瓦片Jpg。
 
@@ -276,26 +276,26 @@ Pro Pyrmid
 End
 ```
 
-## 按经纬度批量下载MODIS产品
+### 按经纬度批量下载MODIS产品
 
 Modis免费分发，光谱通道丰富，产品体系成熟，在多个行业和领域有广泛成功的应用。已成为重要的遥感数据源之一。一般若需获取modis数据，要注册wist账号，查询订购（免费）并等待回复mail，整个流程一般约需数小时。为了避免等待，本文用IDL语言实现了modis产品的地理范围查询，返回的url直接添加到迅雷下载任务列表。
 ![](http://images.cnitblog.com/blog/583396/201311/18161902-2988572b59ca46cdabffb013ca0372a3.jpg)
 运行环境：IDL7.0以上版本，迅雷5.0版本以上
 
-### 原理
+#### 原理
 1. Modis官方ftp站点实时记录了5分钟产品的经纬度范围，并保存在txt文件中。Txt各列以逗号分隔，可以用记事本查看。
 1. Modis官方ftp站点还保存有全部常规产品hdf格式文件。
 1. IDL对象IDLnetUrl可以获取ftp站点目录列表，运行ftp命令，获得http协议url指向的文件。
 1. IDL对象IDLcomIDispatch对象可以调用com /ole对象；迅雷ThunderAgent.Agent是一种ole组件，可用于新建添加迅雷下载任务。
 
-### 流程
+#### 流程
 1. ) 指定日期、经纬度多边形polygon
 1. ) 获得指定日期5分钟产品的地理范围txt文件，获得指定日期5分钟产品列表（简洁模式）
 ![](http://images.cnitblog.com/blog/583396/201311/20132851-03d184fa364745519d43217049bdfab3.gif)
 1. ) 解析txt中各5分钟产品经纬度范围、日夜模式，判断与指定的经纬度polygon是否相交；有交集则记录5分钟产品的url
 1. ) 将所有符合要求的hdf文件url添加为迅雷下载任务
 
-### 源码
+#### 源码
 
 ``` fortran
 ;-----------------------------------------------------------------
