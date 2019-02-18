@@ -1,0 +1,3 @@
+[submodule "themes/miho3"]
+	path = themes/miho3
+	url = git@github.com:peaceFun/hexo-theme-miho.git

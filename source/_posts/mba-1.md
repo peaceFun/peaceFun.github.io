@@ -1,9 +1,12 @@
 ---
 title: 了解MBA
+tags:
+  - 管理学
+  - 读书
+categories: []
+cover_picture: >-
+  https://img.zcool.cn/community/01f32c5992a981a801215603c5f1ab.jpg@1280w_1l_2o_100sh.webp
 date: 2018-07-31 16:17:03
-tags: [管理学,读书]
-categories: 读书
-cover_picture: https://img.zcool.cn/community/01f32c5992a981a801215603c5f1ab.jpg@1280w_1l_2o_100sh.webp
 ---
 
 

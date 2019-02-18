@@ -1,9 +1,13 @@
 ---
 title: IDL
+tags:
+  - IDL
+  - Remote Sensing
+categories: 
+  - Develop
+cover_picture: >-
+  https://img.zcool.cn/community/010e5e554bf99f000001bf72b55c11.jpg@1280w_1l_2o_100sh.jpg
 date: 2017-06-04 20:24:36
-tags: [IDL,Remote Sensing]
-categories: Develop
-cover_picture: https://img.zcool.cn/community/010e5e554bf99f000001bf72b55c11.jpg@1280w_1l_2o_100sh.jpg
 ---
 
 ### 动机

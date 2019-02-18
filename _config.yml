@@ -13,8 +13,8 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: http://peacefun.github.io
-url: http://localhost:4000
-root: /
+url: http://peacefun.gitee.io/blog
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -70,10 +70,18 @@ theme: miho2
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
   
-deploy: 
+# deploy: 
+#   type: git
+# ##  repo: https://github.com/peaceFun/peaceFun.github.io.git
+#   repo: ssh://git@github.com/peaceFun/peaceFun.github.io
+#   branch: master
+deploy:
   type: git
-##  repo: https://github.com/peaceFun/peaceFun.github.io.git
-  repo: ssh://git@github.com/peaceFun/peaceFun.github.io
+  repository:
+      #github: ssh://git@github.com/peaceFun/peaceFun.github.io.git
+      # github: git@github.com/peaceFun/peaceFun.github.io
+      #coding: git@git.coding.net:peacefun/blog.git
+      gitee: git@gitee.com:peacefun/blog.git
   branch: master
   message: update-blog
 
@@ -82,3 +90,10 @@ sitemap:
 
 baidusitemap:
   path: baidusitemap.xml
+
+# Generate categories from directory-tree
+# Dependencies: https://github.com/xu-song/hexo-auto-category
+# depth: the depth of directory-tree you want to generate, should > 0
+auto_category:
+ enable: true
+ depth: 1

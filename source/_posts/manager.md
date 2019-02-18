@@ -1,9 +1,12 @@
 ---
 title: 人岗速配
+tags:
+  - 人岗
+categories: 
+  - Management
+cover_picture: >-
+  https://img.zcool.cn/community/01cf3b554bf99f000001bf72610d7e.jpg@1280w_1l_2o_100sh.webp
 date: 2017-06-15 20:24:36
-tags: [人岗]
-categories: Management
-cover_picture: https://img.zcool.cn/community/01cf3b554bf99f000001bf72610d7e.jpg@1280w_1l_2o_100sh.webp
 ---
 
 

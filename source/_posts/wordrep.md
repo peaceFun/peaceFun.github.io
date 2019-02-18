@@ -1,9 +1,12 @@
 ---
 title: Office VBA例子
+tags:
+  - word
+  - vba
+categories: []
+cover_picture: >-
+  https://img.zcool.cn/community/012ef65540c80f0000017c94be54c2.jpg@1280w_1l_2o_100sh.webp
 date: 2017-04-25 13:13:06
-tags: [word,vba]
-categories: Develop
-cover_picture: https://img.zcool.cn/community/012ef65540c80f0000017c94be54c2.jpg@1280w_1l_2o_100sh.webp
 ---
 
 ### 替换多个Word文件中的字符串

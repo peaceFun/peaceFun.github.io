@@ -1,9 +1,10 @@
 ---
 title: WebGIS
-date: 2017-06-04 20:28:03
 tags: WebGIS
-categories: Develop
-cover_picture: https://img.zcool.cn/community/012f705540c80f0000017c940e5c70.jpg@1280w_1l_2o_100sh.jpg
+categories: []
+cover_picture: >-
+  https://img.zcool.cn/community/012f705540c80f0000017c940e5c70.jpg@1280w_1l_2o_100sh.jpg
+date: 2017-06-04 20:28:03
 ---
 
 

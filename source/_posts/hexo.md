@@ -1,9 +1,13 @@
 ---
 title: 搭建Hexo，在不同机器上编辑博客
+tags:
+  - hexo
+  - 博客
+categories: 
+  - 计算机技术
+cover_picture: >-
+  https://img.zcool.cn/community/01b503554bf99f000001bf72403d70.jpg@1280w_1l_2o_100sh.webp
 date: 2017-06-03 18:55:11
-tags: [hexo,博客]
-categories: 搭建hexo
-cover_picture: https://img.zcool.cn/community/01b503554bf99f000001bf72403d70.jpg@1280w_1l_2o_100sh.webp
 ---
 
 
@@ -49,9 +53,12 @@ cover_picture: https://img.zcool.cn/community/01b503554bf99f000001bf72403d70.jpg
  
 #### permission denied问题排除
 ``` bash
-git config --global user.name "Git账号" git config --global user.email "Git邮箱"
-ssh-keygen -t rsa -C "your_email@example.com"
-将SSH公钥添加到GitHub账户
+git config --global user.name "wishmo@yeah.net" 
+git config --global user.email "wishmo@yeah.net"
+git config --global push.default matching
+ssh-keygen -t rsa -C "wishmo@yeah.net"
+
+#将SSH公钥添加到GitHub账户
 eval `ssh-agent`
 ssh-add ~/.ssh/id_rsa
 ssh-add -l

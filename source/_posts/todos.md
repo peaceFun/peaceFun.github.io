@@ -1,9 +1,13 @@
 ---
 title: ToDos
+tags:
+  - 锻炼
+  - 享受
+  - 技能
+categories: []
+cover_picture: >-
+  https://img.zcool.cn/community/01818b554bf99f000001bf72aaac9b.jpg@1280w_1l_2o_100sh.webp
 date: 2017-06-04 20:01:02
-tags: [锻炼,享受,技能]
-categories: 目标
-cover_picture: https://img.zcool.cn/community/01818b554bf99f000001bf72aaac9b.jpg@1280w_1l_2o_100sh.webp
 ---
 
 
