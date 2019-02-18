@@ -1,0 +1,70 @@
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Writing database to D:\\Workspace\\hexoblog/db.json","time":"2019-02-13T06:31:33.110Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Hexo version: 3.8.0","time":"2019-02-13T06:31:33.128Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Working directory: D:\\Workspace\\hexoblog\\","time":"2019-02-13T06:31:33.128Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Config loaded: D:\\Workspace\\hexoblog\\_config.yml","time":"2019-02-13T06:31:33.297Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-deployer-git","time":"2019-02-13T06:31:33.367Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-generator-baidu-sitemap","time":"2019-02-13T06:31:33.373Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-generator-category","time":"2019-02-13T06:31:33.376Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-generator-feed","time":"2019-02-13T06:31:33.379Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-generator-index","time":"2019-02-13T06:31:33.380Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-generator-json-content","time":"2019-02-13T06:31:33.422Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-generator-archive","time":"2019-02-13T06:31:33.424Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-generator-sitemap","time":"2019-02-13T06:31:33.426Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-generator-tag","time":"2019-02-13T06:31:33.428Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-renderer-marked","time":"2019-02-13T06:31:33.436Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-renderer-stylus","time":"2019-02-13T06:31:33.438Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-renderer-ejs","time":"2019-02-13T06:31:33.439Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Plugin loaded: hexo-server","time":"2019-02-13T06:31:33.532Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":30,"msg":"Deploying: git","time":"2019-02-13T06:31:33.535Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":30,"msg":"Setting up Git deployment...","time":"2019-02-13T06:31:33.537Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":30,"msg":"Clearing .deploy_git folder...","time":"2019-02-13T06:31:33.825Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":30,"msg":"Copying files from public folder...","time":"2019-02-13T06:31:33.828Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":30,"msg":"Copying files from extend dirs...","time":"2019-02-13T06:31:33.938Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":60,"err":{"message":"fatal: 'git@github.com/peaceFun/peaceFun.github.io.git' does not appear to be a git repository\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n","name":"Error","stack":"Error: fatal: 'git@github.com/peaceFun/peaceFun.github.io.git' does not appear to be a git repository\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n\n    at ChildProcess.<anonymous> (D:\\Workspace\\hexoblog\\node_modules\\hexo-util\\lib\\spawn.js:37:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.cp.emit (D:\\Workspace\\hexoblog\\node_modules\\cross-spawn\\lib\\enoent.js:40:29)\n    at maybeClose (internal/child_process.js:962:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)","code":128},"msg":"Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html","time":"2019-02-13T06:31:34.652Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":1760,"level":20,"msg":"Database saved","time":"2019-02-13T06:31:34.655Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Writing database to D:\\Workspace\\hexoblog/db.json","time":"2019-02-13T06:31:53.958Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Hexo version: 3.8.0","time":"2019-02-13T06:31:53.975Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Working directory: D:\\Workspace\\hexoblog\\","time":"2019-02-13T06:31:53.975Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Config loaded: D:\\Workspace\\hexoblog\\_config.yml","time":"2019-02-13T06:31:54.121Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-generator-archive","time":"2019-02-13T06:31:54.163Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-deployer-git","time":"2019-02-13T06:31:54.194Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-generator-baidu-sitemap","time":"2019-02-13T06:31:54.199Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-generator-category","time":"2019-02-13T06:31:54.200Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-generator-json-content","time":"2019-02-13T06:31:54.251Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-generator-feed","time":"2019-02-13T06:31:54.254Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-generator-index","time":"2019-02-13T06:31:54.256Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-generator-tag","time":"2019-02-13T06:31:54.258Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-generator-sitemap","time":"2019-02-13T06:31:54.260Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-renderer-ejs","time":"2019-02-13T06:31:54.261Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-renderer-marked","time":"2019-02-13T06:31:54.268Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-server","time":"2019-02-13T06:31:54.352Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Plugin loaded: hexo-renderer-stylus","time":"2019-02-13T06:31:54.353Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":30,"msg":"Deploying: git","time":"2019-02-13T06:31:54.358Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":30,"msg":"Clearing .deploy_git folder...","time":"2019-02-13T06:31:54.360Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":30,"msg":"Copying files from public folder...","time":"2019-02-13T06:31:54.402Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":30,"msg":"Copying files from extend dirs...","time":"2019-02-13T06:31:54.472Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":60,"err":{"message":"fatal: 'git@github.com/peaceFun/peaceFun.github.io' does not appear to be a git repository\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n","name":"Error","stack":"Error: fatal: 'git@github.com/peaceFun/peaceFun.github.io' does not appear to be a git repository\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n\n    at ChildProcess.<anonymous> (D:\\Workspace\\hexoblog\\node_modules\\hexo-util\\lib\\spawn.js:37:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.cp.emit (D:\\Workspace\\hexoblog\\node_modules\\cross-spawn\\lib\\enoent.js:40:29)\n    at maybeClose (internal/child_process.js:962:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)","code":128},"msg":"Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html","time":"2019-02-13T06:31:54.779Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":7020,"level":20,"msg":"Database saved","time":"2019-02-13T06:31:54.781Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Writing database to D:\\Workspace\\hexoblog/db.json","time":"2019-02-13T06:32:39.642Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Hexo version: 3.8.0","time":"2019-02-13T06:32:39.661Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Working directory: D:\\Workspace\\hexoblog\\","time":"2019-02-13T06:32:39.661Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Config loaded: D:\\Workspace\\hexoblog\\_config.yml","time":"2019-02-13T06:32:39.795Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-deployer-git","time":"2019-02-13T06:32:39.864Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-generator-baidu-sitemap","time":"2019-02-13T06:32:39.872Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-generator-archive","time":"2019-02-13T06:32:39.876Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-generator-category","time":"2019-02-13T06:32:39.879Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-generator-feed","time":"2019-02-13T06:32:39.884Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-generator-index","time":"2019-02-13T06:32:39.886Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-generator-json-content","time":"2019-02-13T06:32:39.940Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-generator-sitemap","time":"2019-02-13T06:32:39.943Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-generator-tag","time":"2019-02-13T06:32:39.945Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-renderer-ejs","time":"2019-02-13T06:32:39.946Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-renderer-marked","time":"2019-02-13T06:32:39.953Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-renderer-stylus","time":"2019-02-13T06:32:39.955Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Plugin loaded: hexo-server","time":"2019-02-13T06:32:40.040Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":30,"msg":"Deploying: git","time":"2019-02-13T06:32:40.043Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":30,"msg":"Clearing .deploy_git folder...","time":"2019-02-13T06:32:40.045Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":30,"msg":"Copying files from public folder...","time":"2019-02-13T06:32:40.112Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":30,"msg":"Copying files from extend dirs...","time":"2019-02-13T06:32:40.170Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":30,"msg":"Deploy done: git","time":"2019-02-13T06:32:57.393Z","v":0}
+{"name":"hexo","hostname":"SuperPC","pid":6732,"level":20,"msg":"Database saved","time":"2019-02-13T06:32:57.400Z","v":0}
